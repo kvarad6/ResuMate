@@ -1,0 +1,11 @@
+{
+  "App": {
+    "BaseDir": "{basePath}",
+    "Mode": 0,
+    "Host": "0.0.0.0",
+    "Port": 8000
+  },
+  "GenAI": {
+    "GeminiModel": "gemini-1.5-flash"
+  }
+}
