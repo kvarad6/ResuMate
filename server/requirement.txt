@@ -27,7 +27,7 @@ pyasn1==0.6.0
 pyasn1_modules==0.4.0
 pycparser==2.22
 pycryptodome==3.20.0
-pydantic==1.9.0
+pydantic==1.10.7
 pyparsing==3.1.2
 python-dotenv==1.0.1
 python-multipart==0.0.9
