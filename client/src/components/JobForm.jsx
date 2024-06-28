@@ -28,7 +28,7 @@ const JobForm = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/job_details",
+        "https://resumate-eysg.onrender.com/job_details",
         formData,
         {
           headers: { "Content-Type": "application/json" },
