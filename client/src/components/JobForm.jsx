@@ -21,14 +21,13 @@ const JobForm = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    console.log("inside handleSubmit");
     console.log(formData);
 
     setIsLoading(true);
 
     try {
       const response = await axios.post(
-        "https://resumate-eysg.onrender.com/job_details",
+        "http://localhost:8000/job_details",
         formData,
         {
           headers: { "Content-Type": "application/json" },
@@ -38,7 +37,6 @@ const JobForm = () => {
       if (response.status === 200) {
         console.log("form submitted successfully!");
         setFormData({ jobRole: "", jobDescription: "" });
-        console.log(response.data);
         setAnalysisResult(response.data);
         navigate("/response", { state: { response: response.data } });
       } else {

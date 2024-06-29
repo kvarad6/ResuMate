@@ -20,7 +20,7 @@ const ResumeUpload = () => {
   const sendPDFForExtraction = async (formData) => {
     console.log(formData);
     const response = await axios.post(
-      "https://resumate-eysg.onrender.com/upload_pdf",
+      "http://localhost:8000/upload_pdf",
       formData,
       {
         headers: { "Content-Type": "multipart/form-data" },

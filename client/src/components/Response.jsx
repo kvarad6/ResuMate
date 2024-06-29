@@ -14,6 +14,7 @@ const Response = () => {
   const formatText = (inputText) => {
     if (!inputText) return null; // Return null if text is undefined or empty
     // Split the input text by newlines first
+    console.log(inputText)
     const lines = inputText.split("\n");
 
     return lines.map((line, lineIndex) => {

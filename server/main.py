@@ -74,6 +74,7 @@ async def upload_pdf(file: UploadFile = File(...)):
        dict: A dictionary with a success message ("file uploaded successfully") on success or an error message ("error": str(e)) in case of exceptions.
    """
    try:
+       print("inside upload_pdf")
        contents = await file.read()
 
 
@@ -166,8 +167,7 @@ def analyseResume(jobRole: str, jobDescription: str):
 
 
        """
-
-
+    
        model = genai.GenerativeModel(GeminiModel)
        response = model.generate_content(prompt)
 
