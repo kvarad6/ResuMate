@@ -20,7 +20,7 @@ const ResumeUpload = () => {
   const sendPDFForExtraction = async (formData) => {
     console.log(formData);
     const response = await axios.post(
-      "http://localhost:8000/upload_pdf",
+      "https://promptopedia.onrender.com/upload_pdf",
       formData,
       {
         headers: { "Content-Type": "multipart/form-data" },
