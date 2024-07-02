@@ -24,16 +24,11 @@ Feeling lost in the resume jungle? Struggling to tailor your resume for each job
 
 #### With ResuMate, you can:
 
-- ##### Craft a Compelling Narrative:
+- ##### Showcase your unique value proposition and impress recruiters.
 
-  Showcase your unique value proposition and impress recruiters.
+- ##### Stand out from the crowd with a resume that screams "perfect fit!"
 
-- ##### Land More Interviews:
-
-  Stand out from the crowd with a resume that screams "perfect fit!"
-
-- ##### Boost Your Confidence:
-  Eliminate resume anxiety and feel empowered during your job search.
+- ##### Eliminate resume anxiety and feel empowered during your job search.
 
 ##### Ready to take your resume game to the next level? Give ResuMate a try today!
 
@@ -48,6 +43,8 @@ The following tools were used in this project:
 - GenAI (Gemini)
 
 ## Deploy Link
+
+https://resu-mate-lovat.vercel.app
 
 ## :globe_with_meridians: Deployment
 
