@@ -27,7 +27,7 @@ const JobForm = () => {
 
     try {
       const response = await axios.post(
-        "https://promptopedia.onrender.com/job_details",
+        "https://resumate-eysg.onrender.com/job_details",
         formData,
         {
           headers: { "Content-Type": "application/json" },
